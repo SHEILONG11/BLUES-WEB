@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando_ex</title>
+</head>
+<body>
+    <h1>Exercício para refixar</h1>
+    <h2>Imagem Flexível</h2>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="Imagem flexível">
+    </picture>
+    <h2>Áudios</h2>
+    <p>Forma um</p>
+    <audio src="midia/guanacast-33.mp3" controls></audio>
+    <audio>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <!--Se acaso não conseguir carregar nenhum-->
+        <p>Infelizmente seu navegador não conseguiu baixar o áudio, você pode baixar o <a href="midia/guanacast-33.mp3">áudio.MP3 aqui.</a></p>
+    </audio>
+
+</body>
+</html>
